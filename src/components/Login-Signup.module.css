@@ -32,10 +32,11 @@
   }
 .field input{
     height: 30px;
-  outline: none;
-  border: none;
+    outline: none;
+  border: 1px solid black;
   border-radius: 5px;
   font-size: larger;
+  border-radius: 10px;
   }
   .accept{
     padding: 4px;
@@ -93,4 +94,7 @@
     text-decoration: none;
     outline: none;
     border: none;
+  }
+  label{
+    padding: 0.5rem;
   }
